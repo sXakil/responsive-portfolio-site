@@ -10,7 +10,7 @@ body {
 	height: 100%;
 	position: absolute;
 	z-index: 3;
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .slides-navigation {
@@ -70,7 +70,7 @@ body {
 
 .skillsSection,
 .contactSection {
-	background-color: #e74c3c;
+	background-color: #4387d0;
 	color: #fff;
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
 .chart .percent {
-	color: #000;
+	color: #fff;
     line-height: 152px;
     display: inline-block;
     font-size: 35px;
@@ -141,7 +141,7 @@ body {
 	font-size: 56px;
 	margin-bottom: 10px;
 	font-weight: 400;
-	color: #e74c3c;
+	color: #4387d0;
 }
 
 .squareContent h3 {
@@ -172,7 +172,7 @@ body {
 
 .contactButton:hover {
 	text-decoration: none;
-	color: #e74c3c;
+	color: #4387d0;
 	background-color: #fff;
 }
 
@@ -189,8 +189,8 @@ body {
 }
 
 .filter .current {
-	background-color: #e74c3c;;
-	border-color: #e74c3c;
+	background-color: #4387d0;;
+	border-color: #4387d0;
 	color: #fff;
 }
 
@@ -250,7 +250,7 @@ body {
 .items a {
 	width: 40px;
     height: 40px;
-    background-color: #e74c3c;
+    background-color: #4387d0;
     position: relative;
     display: inline-block;
 
@@ -324,7 +324,7 @@ body {
 }
 
 #navigation {
-	background-color: #e74c3c;
+	background-color: #4387d0;
     padding: 20px 10px;
     z-index: 100;
     width: 100%;
