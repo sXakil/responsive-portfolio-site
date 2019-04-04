@@ -49,7 +49,7 @@ $(document).ready(function () {
 
 
     var skillsTopOffset = $(".skillsSection").offset().top;
-    var statsTopOffset = $(".statsSection").offset().top;
+    //var statsTopOffset = $(".statsSection").offset().top;
     var countUpFinished = false;
     $(window).scroll(function () {
 
@@ -66,29 +66,20 @@ $(document).ready(function () {
                     $(this.el).find('.percent').text(Math.round(percent));
                 }
             });
-
-
         }
 
+        // if (!countUpFinished && window.pageYOffset > statsTopOffset - $(window).height() + 200) {
+        //     $(".counter").each(function () {
+        //         var element = $(this);
+        //         var endVal = parseInt(element.text());
 
-        if (!countUpFinished && window.pageYOffset > statsTopOffset - $(window).height() + 200) {
-            $(".counter").each(function () {
-                var element = $(this);
-                var endVal = parseInt(element.text());
-
-                element.countup(endVal);
-            })
-
-            countUpFinished = true;
-
-        }
-
-
+        //         element.countup(endVal);
+        //     })
+        //     countUpFinished = true;
+        // }
     });
 
-
     $("[data-fancybox]").fancybox();
-
 
     $(".items").isotope({
         filter: '*',
